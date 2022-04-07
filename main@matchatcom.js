@@ -25,7 +25,7 @@ $(".demolive").show();
 $(".spinnerxs").hide();
 $("#lnkaembd").show();
 $("#btn1").hide();
-var src1 = $('#protocoltype').val()+"://players-matchatco.blogspot.com/p/"+$('#playerytype').val()+".html?s="+window.btoa($('#livelink').val())+"&p="+window.btoa($('#posterlink').val())+"&b="+$('#buttons').val()+"&f="+$('#sizescreen').val()+"&tg="+window.btoa($('#tglink').val());
+var src1 = $('#protocoltype').val()+"://players.matchatco.com/p/"+$('#playerytype').val()+".html?s="+window.btoa($('#livelink').val())+"&p="+window.btoa($('#posterlink').val())+"&b="+$('#buttons').val()+"&f="+$('#sizescreen').val()+"&tg="+window.btoa($('#tglink').val());
 var iframe2 = "<iframe  allowfullscreen='true' frameborder='0' height='500px' scrolling='no' src='"+src1+"' width='100%'></iframe>";
 $('#copyxs2').text(iframe2);
 $('#linklivesco').val(src1);
@@ -104,7 +104,7 @@ $("#playerytype").change(function () {
 });
 
 $( "#btnpre" ).click(function() {
-var src2 = $('#protocoltype').val()+"://players-matchatco.blogspot.com/p/"+$('#playerytype').val()+".html?s="+window.btoa($('#livelink').val())+"&p="+window.btoa($('#posterlink').val())+"&b="+$('#buttons').val()+"&f="+$('#sizescreen').val()+"&tg="+window.btoa($('#tglink').val());
+var src2 = $('#protocoltype').val()+"://players.matchatco.com/p/"+$('#playerytype').val()+".html?s="+window.btoa($('#livelink').val())+"&p="+window.btoa($('#posterlink').val())+"&b="+$('#buttons').val()+"&f="+$('#sizescreen').val()+"&tg="+window.btoa($('#tglink').val());
  $(".demolive").attr("src", src2);
 });
 
